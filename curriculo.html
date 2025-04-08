@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.curriculo {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+header .cargo {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+header .contato a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+header .contato a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+section p, section ul {
+    font-size: 1rem;
+    color: #555;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.job h3 {
+    font-size: 1.2rem;
+    color: #007BFF;
+}
+
+.job p {
+    font-size: 1rem;
+    color: #777;
+}
+</style>
+<body>
+
+    <div class="curriculo">
+        <header>
+            <h1>Breno da Silva</h1>
+            <p class="cargo">Desenvolvedor Web</p>
+            <p class="contato">
+                <a href="mailto:sbreno101@gmail.com">sbreno101@gmail.com</a> | 
+                <a href="https://www.linkedin.com/in/breno-da-silva-2834a02b8/">LinkedIn</a> | 
+                <a href="https://github.com/sbreno101">GitHub</a>
+            </p>
+        </header>
+        <section class="sobre">
+            <h2>Sobre</h2>
+            <p>Desenvolvedor web com experiência em HTML, CSS, JavaScript. Busco sempre aprender novas tecnologias e aplicar boas práticas em meus códigos.</p>
+        </section>
+        <section class="experiencia">
+            <h2>Experiência</h2>
+            <div class="job">
+                <h3>Análise e Desenvolvimento de Sistemas | Sectras</h3>
+                <p>2024 - Atual</p>
+                <ul>
+                    <li>Desenvolvimento de interfaces e componentes responsivos.</li>
+                    <li>Estudo sobre Python, Java (back-end).</li>
+                </ul>
+            </div>
+        </section>
+        <section class="educacao">
+            <h2>Educação</h2>
+            <p>Alura</p>
+        </section>
+        <section class="educacao">
+            <h2>Educação</h2>
+            <p>(Curso online) Alura - HTML e CSS</p>
+            <p>(Curso online) Alura - Banco de dados MySQL, PostgreSQL</p>
+            <p>(Curso online) Alura - Programação em Python</p>
+            <p>(Curso online) Curso de Redes (Gustavo Guanabara)</p>
+        </section>
+        <section class="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript, Python, Java, MySQL</li>
+                <li>Git</li>
+                <li>Desenvolvimento de Sites com Conhecimento no Back-End</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
